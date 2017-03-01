@@ -8,6 +8,8 @@ package io.zensoft.core.annotation;
 @MyAnnotation(value = 22)
 public class Employee extends Person {
 
+    private String id;
+
     private Integer salary;
 
     public Employee() {
