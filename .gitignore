@@ -33,3 +33,6 @@ src/io/zensoft/core/annotation/?.java
 
 # ignore all .pdf files in the doc/ directory
 #doc/**/*.pdf
+
+/.~
+/~
