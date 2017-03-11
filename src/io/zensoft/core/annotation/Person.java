@@ -1,6 +1,5 @@
 package io.zensoft.core.annotation;
 
-import java.util.Comparator;
 
 /**
  * Created by Myktybek on 2/8/17.
@@ -8,10 +7,7 @@ import java.util.Comparator;
 public class Person extends A implements Comparable<Person> {
     private Integer age;
     private String name;
-    private String surname;
 
-    public Person() {
-    }
 
     public Person(Integer age, String name) {
         this.age = age;
