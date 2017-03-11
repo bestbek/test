@@ -8,10 +8,7 @@ import java.util.Comparator;
 public class Person extends A implements Comparable<Person> {
     private Integer age;
     private String name;
-    private String surname;
 
-    public Person() {
-    }
 
     public Person(Integer age, String name) {
         this.age = age;
