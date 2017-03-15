@@ -5,7 +5,6 @@ package io.zensoft.core.annotation;
  * Created by Myktybek on 1/30/17.
  */
 @MyAnnotation(value = 11)
-@MyAnnotation(value = 22)
 public class Employee extends Person {
 
     private String id;
